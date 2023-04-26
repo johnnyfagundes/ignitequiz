@@ -5,7 +5,7 @@ import { THEME } from '../../styles/theme';
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    marginBottom: 21,
+    // marginBottom: 21, remove to use animation on QuizHeader
   },
   header: {
     width: '100%',
