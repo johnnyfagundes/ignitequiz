@@ -58,8 +58,8 @@ export function Question({ question, alternativeSelected, setAlternativeSelected
 
   return (
     <Animated.View
-      entering={entetingKeyFrame}
-      exiting={exitingKeyFrame}
+      entering={entetingKeyFrame.duration(400)}
+      exiting={exitingKeyFrame.duration(400)}
       style={styles.container}
     >
       <Text style={styles.title}>
